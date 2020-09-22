@@ -1,7 +1,7 @@
 .idea/
 node_modules
 build/
-coverage/*
+coverage
 temp/
 tmp/*
 
