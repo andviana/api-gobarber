@@ -3,7 +3,8 @@ import {
   Column,
   PrimaryGeneratedColumn,
   CreateDateColumn,
-  UpdateDateColumn,, Generated
+  UpdateDateColumn,
+  Generated,
 } from 'typeorm';
 
 @Entity('user_tokens')
