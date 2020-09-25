@@ -27,7 +27,7 @@ describe('SendForgotPasswordEmail', () => {
     const sendMail = jest.spyOn(fakeMailProvider, 'sendMail');
     await fakeUsersRepository.create({
       name: 'John Doe',
-      email: 'johndoe@example,com',
+      email: 'johndoe@example.com',
       password: '123456',
     });
 
@@ -51,7 +51,7 @@ describe('SendForgotPasswordEmail', () => {
 
     const user = await fakeUsersRepository.create({
       name: 'John Doe',
-      email: 'johndoe@example,com',
+      email: 'johndoe@example.com',
       password: '123456',
     });
 
