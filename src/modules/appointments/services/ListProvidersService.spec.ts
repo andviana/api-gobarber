@@ -28,7 +28,7 @@ describe('ListProviders', () => {
       password: '123456',
     });
 
-    const providers = listProvidersService.execute({
+    const providers = await listProvidersService.execute({
       user_id: loggedUser.id,
     });
 
