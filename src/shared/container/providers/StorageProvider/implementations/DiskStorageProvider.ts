@@ -1,4 +1,3 @@
-import { fromString } from 'uuidv4';
 import fs from 'fs';
 import path from 'path';
 import uploadConfig from '@config/upload';
