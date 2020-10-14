@@ -13,7 +13,7 @@ export default class SparkPostMailProvider implements IMailProvider {
     @inject('MailTemplateProvider')
     private mailTemplateProvider: IMailTemplateProvider,
   ) {
-    this.client = new SparkPost(process.env.SPARKPOST_API_KEY);
+    this.client = new SparkPost(process.env.SPARKPOST_API_KEY || 'default');
   }
 
   public async sendMail({
